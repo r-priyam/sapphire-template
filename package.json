@@ -5,10 +5,10 @@
   "type": "module",
   "main": "dist/main.js",
   "imports": {
-	"#root/*": "./dist/*.js",
-	"#lib/*": "./dist/lib/*.js",
-	"#utils/*": "./dist/lib/util/*.js"
-},
+    "#root/*": "./dist/*.js",
+    "#lib/*": "./dist/lib/*.js",
+    "#utils/*": "./dist/lib/util/*.js"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch --onSuccess \"yarn start\"",
@@ -25,7 +25,6 @@
     "@discordjs/builders": "^0.16.0",
     "@sapphire/decorators": "^4.3.8",
     "@sapphire/discord.js-utilities": "^4.11.3",
-    "@sapphire/fetch": "^2.4.1",
     "@sapphire/framework": "next",
     "@sapphire/plugin-logger": "^2.2.3",
     "@skyra/env-utilities": "^1.0.2",
