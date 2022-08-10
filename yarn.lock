@@ -3238,6 +3238,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"reflect-metadata@npm:^0.1.13":
+  version: 0.1.13
+  resolution: "reflect-metadata@npm:0.1.13"
+  checksum: 798d379a7b6f6455501145419505c97dd11cbc23857a386add2b9ef15963ccf15a48d9d15507afe01d4cd74116df8a213247200bac00320bd7c11ddeaa5e8fb4
+  languageName: node
+  linkType: hard
+
 "regexp-tree@npm:^0.1.24, regexp-tree@npm:~0.1.1":
   version: 0.1.24
   resolution: "regexp-tree@npm:0.1.24"
@@ -3401,6 +3408,7 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-unicorn: ^43.0.2
     prettier: ^2.7.1
+    reflect-metadata: ^0.1.13
     tsup: ^6.2.1
     typescript: ^4.7.4
   languageName: unknown

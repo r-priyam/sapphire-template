@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "author": "r-priyam <roy_priyam@outlook.com>",
   "type": "module",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "imports": {
     "#root/*": "./dist/*.js",
     "#lib/*": "./dist/lib/*.js",
@@ -14,7 +14,7 @@
     "dev": "tsup --watch --onSuccess \"yarn start\"",
     "format": "prettier --write --loglevel=warn \"src/**/*.ts\"",
     "lint": "eslint src --ext ts --fix",
-    "start": "node --enable-source-maps dist/main.js",
+    "start": "node --enable-source-maps dist/index.js",
     "typecheck": "tsc -b src",
     "watch": "tsup --watch"
   },
@@ -30,7 +30,8 @@
     "@skyra/env-utilities": "^1.0.2",
     "colorette": "^2.0.19",
     "discord-api-types": "0.33.5",
-    "discord.js": "^13.9.2"
+    "discord.js": "^13.9.2",
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
     "@sapphire/eslint-config": "^4.3.7",
