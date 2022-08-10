@@ -1,15 +1,17 @@
 import '#lib/setup';
 import { exit } from 'node:process';
 
+import { container } from '@sapphire/framework';
+
 import { BotClient } from '#lib/extensions/BotClient';
 
 const client = new BotClient();
 
 try {
 	await client.login();
-	client.logger.info('Successfully logged in.');
+	container.logSuccess({ label: 'WS', message: 'Successfully logged in.' });
 } catch (error) {
-	client.logger.error(error);
+	container.logger.error(error);
 	client.destroy();
 	exit(1);
 }
