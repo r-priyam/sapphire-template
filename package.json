@@ -28,10 +28,13 @@
     "@sapphire/framework": "next",
     "@sapphire/plugin-logger": "^2.2.3",
     "@skyra/env-utilities": "^1.0.2",
+    "bufferutil": "^4.0.6",
     "colorette": "^2.0.19",
     "discord-api-types": "0.33.5",
     "discord.js": "^13.9.2",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "utf-8-validate": "^5.0.9",
+    "zlib-sync": "^0.1.7"
   },
   "devDependencies": {
     "@sapphire/eslint-config": "^4.3.7",
