@@ -1,6 +1,7 @@
 {
 	"name": "sapphire-template",
-	"version": "0.0.0",
+	"version": "1.0.0",
+	"private": true,
 	"author": "r-priyam <roy_priyam@outlook.com>",
 	"type": "module",
 	"imports": {
