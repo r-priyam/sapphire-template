@@ -1,6 +1,8 @@
 import 'reflect-metadata';
 import '@sapphire/plugin-logger/register';
 
+import process from 'node:process';
+import { URL } from 'node:url';
 import { inspect } from 'node:util';
 
 import { ApplicationCommandRegistries, container, Piece, RegisterBehavior } from '@sapphire/framework';

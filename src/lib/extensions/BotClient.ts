@@ -1,6 +1,7 @@
 import { LogLevel, SapphireClient } from '@sapphire/framework';
 import { envParseBoolean, envParseString } from '@skyra/env-utilities';
 import { GatewayIntentBits } from 'discord-api-types/v10';
+
 import type { ExcludeEnum } from 'discord.js';
 import type { ActivityTypes } from 'discord.js/typings/enums';
 
